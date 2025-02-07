@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #979797;
+    color: #333333;
+}
+
+header {
+    background-color: #1E3A8A;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 a {
+    margin: 0;
+    color: #3B82F6;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#head_create{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background: #2563EB;
+    border-radius: 30px;
+}
+
+#head_create a{
+    margin-right: 20px;
+}
+
+#create{
+    margin-left: 60px;
+    border-radius: 30px;
+    background: #2563EB;
+}
+#create:hover{
+    background: #0400ff;
+    border: 1px solid #001031;
+    box-shadow:0 0 50px rgb(0, 68, 255), 0 0 50px rgb(54, 91, 255); 
+    filter: brightness(200%);
+}
+
+#cancel{
+    margin-left: 40px;
+    color: red;
+}
+
+#post_create{
+    margin-left: 50px;
+}
+
+#cont{
+    display: flex;
+    justify-content: center;
+}
